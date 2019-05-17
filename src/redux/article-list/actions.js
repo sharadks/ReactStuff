@@ -26,7 +26,6 @@ export const fetchArticles = (days) => {
 		apiService
 			.get(`${API_URL}${days}.json?api-key=${API_KEY}`)
 			.then((response) => {
-				console.log(response);
 				dispatch(fetchArticlesSuccess(response.data.results));
 			})
 			.catch((error) => dispatch(fetchArticlesFailed(error)));
