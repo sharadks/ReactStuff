@@ -15,3 +15,4 @@ s.sarawswat@xebia.com
 1. go to directory
 2. yarn install
 3. yarn start
+4. localhost:3000
